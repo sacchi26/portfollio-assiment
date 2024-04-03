@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+    .navbar-container{
+        width: 100%;
+        background-color: rgb(27, 22, 22);
+        padding: 20px 0px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navbar-container p {
+        padding: 5px 8px;
+        font-size: 20px;
+        color: white;
+    }
+    .body{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .main{
+        display: flex;
+        justify-content: space-around;
+        border-radius: 5px;
+        box-shadow: 10px 5px 5px gainsboro;
+        padding: 20px;
+    }
+    .text-box{
+        text-align: center;
+
+    }
+    .main>img{
+        width: 10%;
+    }
+    .text-box .h1,.h2,.h3,.h4,.h5{
+        font-family: sans-serif;
+    }
+    .text-box .h1{
+        color: green;
+    }
+    .text-box .h2{
+        color: red;
+    }
+    .text-box .h3{
+        color: yellow;
+    }
+    .text-box .h4{
+        color: purple;
+    }
+    .text-box .h5{
+        color: orange;
+    }
+    .text-box p{
+        font-size: 18px;
+    }
+    
+</style>
+<body>
+    <div class="navbar-container">
+        <p>Home</p>
+        <p>Education</p>
+         <p>Project</p>
+         <p>Skills</p>
+          <p>contect me</p>
+    </div>
+
+    <div class="body">
+        <div class="main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREFIJDGSy0m5Ot-c3sg46up9SodvdItVAePI6xAXyRO8fGj_GdsP83t90QZg&s" alt="">
+            <div class="text-box">
+                <h1 class="h1">Home</h1>
+                <p>This is dummy discription for the home section . Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="./photos/educstion.jpg" alt="">
+            <div class="text-box">
+                <h1 class="h2">Education</h1>
+                <p>This is dummy discription for the education section . Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="./photos/project.jpg" alt="">
+            <div class="text-box">
+                <h1 class="h3">Project</h1>
+                <p>This is dummy discription for the project section . Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="./photos/skills.jpg" alt="">
+            <div class="text-box">
+                <h1 class="h4">Skills</h1>
+                <p>This is dummy discription for the skills section . Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="./photos/contect me.jpg" alt="">
+            <div class="text-box">
+                <h1 class="h5">Contect Me</h1>
+                <p>This is dummy discription for the Contect Me section . Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
